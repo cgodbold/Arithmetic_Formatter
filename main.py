@@ -5,7 +5,6 @@ def arithmetic_arranger(array,display):
     if display==True:
         x=0
         firstnumstatement=""
-        operatorstatement=""
         secondnumstatement=""
         totalstatement=""
         dashesstatement =""
@@ -51,9 +50,6 @@ def arithmetic_arranger(array,display):
             dashesstatement = dashesstatement+ ("-"*(largest+1)).rjust(7)+" "
 
             x=x+1
-
-
-
 
 
         return " "+firstnumstatement+'\n'+secondnumstatement+'\n'+dashesstatement+'\n'+totalstatement
